@@ -13,6 +13,22 @@
   <h3>You Try it!</h3>
   <p>Ask the user two questions using propmt. Then give the user a personalized response using the data entered.</p>
   <script>
+    let userState;
+    let userName;
+    userName = prompt("What's your name?")
+    userState = prompt("What state are you from?");
+    document.write(`Hello ${userName}, ${userState} is a great state!`);
+  </script>
+  <h3>You Try It!</h3>
+  <p>Ask for the user's favorite ice cream flavor. And write a message about it.</p>
+  <script>
+    let favIceCream ="green tea";
+    // try it! prompt for favorite ice cream
+    favIceCream = prompt("What is your favorite ice cream flavor?")
+
+    // try it! Write a message about the favorite ice cream flavor.
+    document.write(`Hi ${userName}, I like ${favIceCream} ice cream too!`);
+  </script>
 
 
 
