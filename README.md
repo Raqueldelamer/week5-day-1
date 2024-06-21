@@ -1,1 +1,1 @@
-# week5-day-1
+# week5-javascript
