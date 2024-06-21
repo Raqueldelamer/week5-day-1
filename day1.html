@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Strings and interpolation</title>
+</head>
+
+<body>
+  <h1>Templates</h1>
+
+  <p>
+    <a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Template_literals">Read more about
+      templates here.</a>
+  </p>
+
+  <p>We know about variables. We know about Strings. We will now learn about But how to we put them together?</p>
+  <p> We use backticks and ${ }. Have a look at an example</p>
+
+  <h2>Example 1</h2>
+  <p>Lets look at some variables and write them out in a string.</p>
+  <p>
+    <script>
+      let playerName;
+      playerName = "John";
+      document.write(`Hi, ${playerName}. Welcome to the game!`);
+    </script>
+  </p>
+  <p>
+    <script>
+      let dinnerItem;
+      dinnerItem = "Scallops";
+      document.write(`Your order of  ${dinnerItem} is ready! Come to the pickup counter now.`);
+
+    </script>
+  </p>
+  <p>
+    <script>
+      let fruit;
+      fruit = "strawberry";
+      document.write(`It's ${fruit} season.`)
+    </script>
+  </p>
+
+  <h2>Example 2</h2>
+  <p>You can have as many variables as you want. You can even use numbers!</p>
+  <p>
+    <script>
+      let a;
+      let b;
+      let c;
+
+      a = 12;
+      b = 4;
+      c = a + b;
+      document.write(`${a} plus ${b} is equal to ${c}.`)
+    </script>
+  </p>
+  <p>
+    <script>
+      c = a * b;
+      document.write(`${a} times ${b} is equal to ${c}`);
+    </script>
+  </p>
+
+
+
+  <p><h2>Now you try it!</h2></p>
+  <p>Make at least 5 more examples of templates yourself.</p>
+ 
+
+<p>
+    <script>
+      let ownerName;
+      let pet1;
+      let pet2;
+      ownerName = "Jeff";
+      pet1 = "dog";
+      pet2 = "cat";
+      document.write(`Hi, ${ownerName}. Your ${pet1} and ${pet2} need more food.`)
+    </script>
+ </p>
+
+  <p>
+    <script>
+      let destinationCountry;
+      let destinationCity1;
+      let destinationCity2;
+
+
+      destinationCountry = "France";
+      destinationCity1 = "Marseille";
+      destinationCity2 = "Avignon";
+
+      document.write(`1. If traveling to ${destinationCountry}, visit ${destinationCity1} and ${destinationCity2} for at least two weeks.`)
+    </script>
+  </p>
+  <p>
+    <script>
+      let perfectVacation;
+      let perfectVacation2;
+      let perfectVacation3;
+
+      perfectVacation = "California";
+      perfectVacation2 = "New York";
+      perfectVacation3 = "Miami";
+
+      document.write(`2. Would you rather go to ${perfectVacation}, ${perfectVacation2}, or ${perfectVacation3} this summer? ${perfectVacation2} is my choice.`)
+
+    </script>
+  </p>
+
+  <p>
+    <script>
+    
+    let fruit1;
+    let fruit2;
+    let fruit3;
+
+    fruit1 = "rasberries";
+    fruit2 = "blueberries";
+    fruit3 = "strawberries";
+
+    document.write(`3. I love ${fruit1} and ${fruit2}, but I don't like ${fruit3} at all.`)
+
+    </script>
+  </p>
+  
+  <p>
+    <script>
+        let city1 = "New York";
+        let city2 = "San Francisco";
+        let city3 = "New Orleans";
+        let city4 = "Cleveland";
+
+        document.write(`4. America has only three cities: ${city1}, ${city2}, and ${city3}. Everywhere else is ${city4}.   ~Tenneesee Williams `)
+    </script>
+  </p>
+
+  <p>
+    <script>
+        let disaster1= "hurricanes";
+        let disaster2= "earth quakes";
+        let disaster3= "tornadoes";
+        let disaster4= "mass fires";
+
+        document.write(`5. Which frighten you the most; ${disaster1}, ${disaster2}, ${disaster3}, or ${disaster4}?`)
+
+    </script>
+  </p>
